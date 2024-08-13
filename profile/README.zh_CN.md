@@ -2,7 +2,7 @@
 
 
 ### 🙋‍♀️ 简要介绍
-`easy-retrofit`是一个基于retrofit库,在多种Java Web框架下, 通过Annotation声明Retrofit, 通过依赖注入的方式隐式的实例化Retrofit,可以使Retrofit很容易的集成到Web框架中,并提供更多扩展的功能.
+`easy-retrofit`是一个基于retrofit库,在多种支持依赖注入的Java Web框架下(Springboot, Quarkus), 通过Annotation声明Retrofit, 通过依赖注入的方式隐式的实例化Retrofit,可以使Retrofit很容易的集成到Web框架中,并提供更多扩展的功能.
 
 同时, `easy-retrofit`提供了一个易于扩展且无侵入性的扩展架构设计(extension),你可以创建各种基于OKHTTP3 Interceptor来完成你想要的功能.
 
