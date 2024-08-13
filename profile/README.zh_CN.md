@@ -9,4 +9,4 @@
 ### 🌈 贡献指南
 对于核心项目, 如果是BUG,那么你可以创建一个PR, 并提交; 如果是新功能, 那么你可以创建一个discussion, 我们一起讨论这个有趣的提议.
 
-对于扩展项目, 你可以在`esay-retrofit`组织首页中创建一个discussion,在我们讨论过后,我会为你创建相应的项目.
+对于扩展项目, 你可以在`esay-retrofit`首页的Discussions Tab中创建一个discussion,在我们讨论过后,我会为你创建相应的项目.
