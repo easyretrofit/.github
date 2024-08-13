@@ -1,5 +1,6 @@
-## Hi there 👋
+## Easy Retrofit
 
+[中文介绍](https://github.com/easyretrofit/.github/blob/main/profile/README.zh_CN.md)
 <!--
 
 **Here are some ideas to get you started:**
