@@ -31,7 +31,7 @@ tips: 你只需要注意替换Springboot中的`@Autowired`和`@Resource`注解�
 扩展是easy-retrofit中非常重要的概念, 扩展核心是基于OKHttp3的Interceptor,并提供增强功能.
 其中的增强, 核心是使用Annotation的方式, 在运行时获取更多的设置参数,并将所有的设置参数传递给OkHttp3的Interceptor. 
 
-[创建一个扩展](extension.zh_CN)
+[创建一个扩展](extension.zh_CN.md)
 
 ## 什么是集成
 
@@ -43,7 +43,7 @@ tips: 你只需要注意替换Springboot中的`@Autowired`和`@Resource`注解�
 
 而集成则可以解决这个问题, 你只需要创建一个集成项目, 然后在集成项目里完成这些集成工作, 在发布后, 只需要在业务项目里里引入集成库即可.
 
-[创建一个集成](integration.zh_CN)
+[创建一个集成](integration.zh_CN.md)
 
 ## 🌈 贡献指南
 对于核心项目, 如果是BUG,那么你可以创建一个PR, 并提交; 如果是新功能, 那么你可以创建一个discussion, 我们一起讨论这个有趣的提议.
