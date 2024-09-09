@@ -45,6 +45,11 @@ tips: 你只需要注意替换Springboot中的`@Autowired`和`@Resource`注解�
 
 [创建一个集成](integration.zh_CN.md)
 
+## 关于扩展与集成
+我个人期望社区能贡献更多的扩展, 扩展的实现方式可以是基于Springboot的starter, 也可以是基于Quarkus的extension.
+当有一个扩展功能,我希望可以分为如下几个工程, 分别是core, springboot starter, quarkus extension. 这样就能保证核心功能是通用的, 而扩展功能是针对特定框架的.
+
+
 ## 🌈 贡献指南
 对于核心项目, 如果是BUG,那么你可以创建一个PR, 并提交; 如果是新功能, 那么你可以创建一个discussion, 我们一起讨论这个有趣的提议.
 
