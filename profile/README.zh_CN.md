@@ -22,10 +22,10 @@ tips: 你只需要注意替换Springboot中的`@Autowired`和`@Resource`注解�
 
 ## 🚀 特性
 `easy-retrofit`包含了几大块周边的能力
-1. 自定义实现call adapter 
-2. 自定义实现converter
-4. 基于`easy-retrofit`扩展架构,自定义实现扩展(extension)
-5. 基于`easy-retrofit`扩展架构,自定义实现集成(integration),当然集成也属于一种扩展.
+1. 自定义实现retrofit的 call-adapter 
+2. 自定义实现retrofit的 converter
+3. 基于`easy-retrofit`扩展架构,自定义实现扩展(extension)
+4. 基于`easy-retrofit`扩展架构,自定义实现集成(integration),当然集成也属于一种扩展.
 
 ## 什么是扩展
 扩展是easy-retrofit中非常重要的概念, 扩展核心是基于OKHttp3的Interceptor,并提供增强功能.
