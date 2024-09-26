@@ -1,6 +1,11 @@
 ## Easy Retrofit
 
 [中文介绍](https://github.com/easyretrofit/.github/blob/main/profile/README.zh_CN.md)
+
+Currently, the Chinese document has been completed and the English document is being improved.
+
+当前中文介绍是完整的. 英文文档正在完善中.
+
 <!--
 
 **Here are some ideas to get you started:**
