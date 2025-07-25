@@ -9,7 +9,13 @@
 
 需要注意, 在`retrofit-extension.properties`中,可以配置多个扩展, 以逗号分割.
 
-
+`retrofit-extension.properties`文件内容如下,
+```
+  retrofit.resource.package = xxx.xxx.xxx
+  retrofit.extension.name = \
+  xxx..xxx.xxx.xxxExtension,\
+  xxx..xxx.xxx.xxxExtension
+```
 ## 在Springboot中创建一个扩展
 这里有一个Springboot Integration示例: https://github.com/liuziyuan/easy-retrofit-integration-spring-boot-web-starter
 
