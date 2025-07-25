@@ -3,15 +3,18 @@
 一个`easy-retrofit`扩展应该具备一下几个要素:
 
 1. 在resources目录下添加一个`retrofit-extension.properties`文件, 声明扩展
-   ```
+2. 创建一个OKHttp3 Interceptor, 继承`BaseInterceptor`
+3. 创建一个Annotation, 它的属性作为Interceptor的需要的参数
+4. 创建一个配置类, 这依赖于你使用的Web框架
+
+
+`retrofit-extension.properties`文件格式如下
+```
   retrofit.resource.package = xxx.xxx.xxx
   retrofit.extension.name = \
   xxx..xxx.xxx.xxxExtension,\
   xxx..xxx.xxx.xxxExtension
-   ```
-3. 创建一个OKHttp3 Interceptor, 继承`BaseInterceptor`
-4. 创建一个Annotation, 它的属性作为Interceptor的需要的参数
-5. 创建一个配置类, 这依赖于你使用的Web框架
+```
 
 ## 在Springboot中创建一个扩展
 这里有一个示例: https://github.com/liuziyuan/easy-retrofit-extension-print-spring-boot-starter
